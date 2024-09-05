@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Castoro:ital@0;1&display=swap" rel="stylesheet">
+  <title>index</title>
+</head>
+
+<body>
+  <%- include('./layout/header'); -%>
+
+<div class="banner" style="margin-top: 160px;" >
+  <div class="container">
+    <div class="row justify-content-center">
+      <h1 class="fs-128 fw-normal letter-spacing-12" style="line-height: 1.5;" data-aos="fade-right">VITO</h1>
+      <div class="col-6" data-aos="fade-right">
+        <img src="../assets/images/banner.jpg" alt="">
+      </div>
+      <h2 class="fs-128 fw-normal text-end pe-4 letter-spacing-12" style="line-height: 1.5;" data-aos="fade-left">RESUME</h2>
+    </div>
+  </div>
+</div>
+
+<main class="main py-8" style="background-color: #EFEFEF;">
+  <div class="container">
+    <div class="row justify-content-end">
+      <div class="col-6" data-aos="fade-left">
+        <p class="fs-2 letter-spacing-0 mb-0">I'm Vito, a UI Designer with 5+ years of experience. I create visually appealing interfaces for web and mobile apps.  Proficient in Sketch, Adobe XD, Figma, HTML, CSS, and JavaScript. I enjoy collaborating with others to create high-quality products.</p>
+      </div>
+    </div>
+  </div>
+</main>
+
+<section class="section mt-10" style="margin-bottom: 160px;" >
+  <div class="container">
+    <div class="row">
+      <div class="col-6">
+    <ul class="list-unstyled">
+      <li class="mb-7" data-aos="fade-left">
+        <h3>Vito Evans</h3>
+          <p>456 Walnut Avenue, Someville, USA</p>
+          <p><a href="#">+1 123 456 7890</a></p>
+          <p><a href="mailto:someone@example.com">info@hexschool.com</a></p>
+          <p><a href="www.infohexschool.com">www.infohexschool.com</a>
+        </p>
+      </li>
+      <li class="mb-7" data-aos="fade-left">
+        <h3>Education</h3>
+          <span>2014-2018</span>
+          <p>Bachelor of Science in Business Administration, University of California, Los Angeles</p>
+          <span>2012-2014 </span>
+          <p>Associate of Arts in Graphic Design, San Francisco State University</p>
+          <span>2008-2012</span>
+          <p>High School Diploma, Lincoln High School</p>
+      </li>
+      <li class="mb-7" data-aos="fade-left">
+        <h3>Work</h3>
+          <span>2018-2021</span>
+          <p>Marketing Manager, ABC Company</p>
+          <span>2016-2018</span>
+          <p>Sales Associate, XYZ Corporation</p>
+          <span>2014-2016</span>
+          <p>Customer Service Representative, QRS Inc.</p>
+      </li>
+      <li data-aos="fade-left">
+        <h3>Awards</h3>
+          <p>Best in Show Award, National Advertising Awards, 2020</p>
+          <p>Honorable Mention, International Design Competition, 2019</p>
+          <p>People's Choice Award, Local Art Exhibition, 2018</p>
+      </li>
+    </ul>
+  </div>
+  </div>
+  </div>
+</section>
+
+<footer class="bg-black py-9 text-center"  data-aos="fade-left">
+  <a href="#">
+    <img src="../assets/images/fb.png" alt="" class="px-4">
+  </a>
+  <a href="#">
+    <img src="../assets/images/ig.png" alt="" class="px-4">
+  </a>
+  <a href="#">
+    <img src="../assets/images/line.png" alt="" class="px-4">
+  </a>
+
+</footer>
+
+
+
+  <%- include('./layout/footer'); -%>
+      <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+      <script type="module" src="../main.js"></script>
+      <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+      <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+      <script>
+      AOS.init();
+</script>
+</body>
+
+</html>

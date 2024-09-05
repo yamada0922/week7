@@ -1,0 +1,46 @@
+body, html {
+  overflow-x: hidden;
+}
+body {
+  font-family: "Castoro", serif;
+  font-weight: 400;
+  color: black;
+  background: white;
+  line-height: 1.5;
+}
+.fs-128 {
+  font-size: 128px;
+}
+.letter-spacing-0 {
+  letter-spacing: 0;
+}
+.letter-spacing-12 {
+  letter-spacing: 0.12;
+}
+li{
+  h3 {
+  font-size: 40px;
+  color: #AE0000;
+  border-bottom: 3px solid #AE0000;
+  line-height: 1.5;
+  margin-bottom: 16px;
+  font-weight: 400;
+  }
+  p {
+    margin-bottom: 8px;
+    font-size: 24px;
+    letter-spacing: 0;
+    a{
+      border-bottom: 1px solid transparent;
+    }
+    a:hover {
+      color: blue;
+      border-bottom: 1px solid blue;
+    }
+  } 
+  span {
+    font-size: 20px;
+    color: #949494;
+    font-style: italic;
+  }
+}
